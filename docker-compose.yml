@@ -9,7 +9,7 @@ services:
    image: louislam/uptime-kuma:latest
    container_name: uptimekuma
    ports:
-     - "3001:3001"      #if you are using the 3001 port you can change the left one as you wish
+     - "3033:3001"      #if you are using the 3001 port you can change the left one as you wish
    volumes:
      - /root/docker/uptimekuma/config:/app/data
      - /var/run/docker.sock:/var/run/docker.sock
